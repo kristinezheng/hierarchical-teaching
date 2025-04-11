@@ -67,3 +67,14 @@ loaded via a namespace (and not attached):
 ## Contact
 
 aliciach@mit.edu
+
+## KZ edits
+to setup:
+- install [webppl](https://webppl.readthedocs.io/en/master/installation.html)
+- install [webppl-csv](https://github.com/mhtess/webppl-csv)
+- install conda environment from `environment.yml`: `conda env create -f environment.yml`
+- replace webppl path in `run_simulation.sh`
+
+to run just one version:
+`/usr/local/lib/node_modules/webppl simulation.wppl --require webppl-csv --random-seed 88 -- --speakerAlpha 1 --exampleCost 0.01`
+
